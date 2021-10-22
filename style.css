@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+header p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+main form{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+form p {
+    color: white;
+}
+
+form label{
+    color: white;
+}
+
+.input-user,select{
+    border: 1px solid grey;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+select{
+    background-color: white;
+}
+
+form p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    resize: none;
+}
+
+input[type = submit]{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+@media screen and (min-width:540px){
+    
+    form{
+        border-radius: 10px;
+        box-shadow: 5.7px 2.4px 5.3px rgba(0, 0, 0, 0.061),
+                    19.2px 8px 17.9px rgba(0, 0, 0, 0.089),
+                    86px 36px 80px rgba(0, 0, 0, 0.15);
+        margin-bottom: 10px;
+    }
+    
+}

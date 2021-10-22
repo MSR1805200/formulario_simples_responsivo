@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>freeCodeCamp Survey Form</h1>
+            <p>Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <form>
+            <p>Name</p>
+            <input class="input-user" type="text" name="name" id="name">
+
+            <p>Email</p>
+            <input class="input-user" type="email" name="email" id="email">
+
+            <p>Date</p>
+            <input class="input-user" type="date" name="date" id="date">
+
+            <p>Which option best describes your current role?</p>
+            <select name="role" id="role">
+                <option value="Select Current role" selected disabled>Select current role</option>
+                <option value="Student">Student</option>
+                <option value="Full Time Job"> Full Time Job</option>
+                <option value="Full Time Learner">Full Time Learner</option>
+                <option value="Prefer not say">Prefer not say</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+
+            <div class="same-line">
+                <input type="radio" id="Definitely" value="Definitely" name="recommend">
+                <label for="Definitely">Definitely</label>
+            </div>
+            
+            <div class="same-line">
+                <input type="radio" id="Maybe" value="Maybe" name="recommend">
+                <label for="Maybe">Maybe</label>
+            </div>
+
+            <div class="same-line">
+                <input type="radio" id="Not-sure" value="Not-sure" name="recommend">
+                <label for="Not-sure">Not sure</label>
+            </div>
+            
+            <p>What would you like to see improved? (Check all that apply)</p>
+            
+            <div class="same-line">
+                <input type="checkbox" id="Front-End" name="improved">
+                <label for="Front-End">Front-End Projects</label>
+
+            </div>
+            
+            <div class="same-line">
+                <input type="checkbox" id="Back-End" name="improved">
+                <label for="Back-End">Back-end Projects</label>
+            </div>
+
+            <div class="same-line">
+                <input type="checkbox" id="Data-Visualization" name="improved">
+                <label for="Data-Visualization">Data Visualization</label>
+            </div>
+
+            <div class="same-line">
+                <input type="checkbox" id="Challenges" name="improved">
+                <label for="Challenges">Challenges</label>
+            </div>
+
+            <div class="same-line">
+                <input type="checkbox" id="Open-Source" name="improved">
+                <label for="Open-Source">Open Source Comunity</label>
+            </div>
+            
+            <div class="same-line">
+                <input type="checkbox"  id="Gitter-Help" name="improved">
+                <label for="Gitter-help">Gitter help rooms</label>
+            </div>
+
+            <div class="same-line">
+                <input type="checkbox" id="Video" name="improved">
+                <label for="Video">Video</label>
+            </div>
+
+            <div class="same-line">
+                <input type="checkbox" id="City-Meetups" name="improved">
+                <label for="City-Meetups">City Meetups</label>    
+            </div>
+             
+           <div class="same-line">
+                <input type="checkbox" id="Wiki" name="improved">
+                <label for="Wiki">Wiki</label>
+           </div>
+
+           <div class="same-line">
+                <input type="checkbox" id="Forum" name="improved">
+                <label for="Forum">Forum</label>
+           </div>
+            
+           <div class="same-line">
+                <input type="checkbox" id="Additional-Courses" name="improved">
+               <label for="Additional-Courses">Additional Courses</label>
+           </div>
+            
+            <p>What would you like to see improved? (Check all that apply)</p>
+            <textarea name="comments" id="" cols="33" rows="5" placeholder="Enter your comments here...."></textarea>
+
+            <input class="in-block" type="submit" name="submit" id="submit">
+        </form>
+    </main>
+</body>
+</html>
